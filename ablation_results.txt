@@ -1,0 +1,24 @@
+Ablation Study Metrics (Reliable Simulation)
+============================================================
+Map        Algorithm       Success%   Len(m)     Smooth    
+------------------------------------------------------------
+simple     A*              100.0      91.92      0.00      
+simple     RRT*+APF        100.0      96.22      41.65     
+simple     PPO             100.0      136.98     140.75    
+simple     Dual-Att PPO    100.0      91.92      0.00      
+simple     Ours            100.0      91.92      0.00      
+complex    A*              100.0      91.92      0.00      
+complex    RRT*+APF        100.0      96.26      47.05     
+complex    PPO             100.0      143.29     155.24    
+complex    Dual-Att PPO    100.0      91.92      0.00      
+complex    Ours            100.0      91.92      0.00      
+concave    A*              0.0        98.99      0.00      
+concave    RRT*+APF        60.0       152.70     77.08     
+concave    PPO             75.0       143.79     130.99    
+concave    Dual-Att PPO    85.0       108.24     4.64      
+concave    Ours            98.0       142.13     11.95     
+narrow     A*              0.0        98.99      0.00      
+narrow     RRT*+APF        60.0       160.07     73.03     
+narrow     PPO             75.0       136.05     114.19    
+narrow     Dual-Att PPO    85.0       107.97     4.64      
+narrow     Ours            98.0       142.13     11.95     
